@@ -1,0 +1,11 @@
+prefix=/home/robotvision/code/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: apriltags2
+Description: apriltags2
+Requires: 
+Version: 1.0.0
+Libs: -L${libdir}  -lapriltags2
+Cflags: -I${includedir} 

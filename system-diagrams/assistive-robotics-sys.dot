@@ -1,0 +1,83 @@
+digraph assistive_robotics_pods {
+
+    // Essential Packages in System /usr/local
+    node [shape=box fontsize=13 color="green" fontname="Times new Roman"];
+    // sys_opencv [label="opencv"];
+    // sys_pcl [label="pcl"];
+
+    // Essential Packages in rv-externals 
+    node [shape=box fontsize=13 color="blue" fontname="Times new Roman"];
+    ex_lcm [label="lcm"];  
+    ex_libbot [label="libbot"];  
+    ex_jpeg_utils [label="jpeg-utils"];
+    ex_zlib [label="zlib"]
+    ex_common_utils [label="common-utils"];
+    ex_cv_bridge_lcm [label="cv-bridge-lcm"];
+    ex_kinect_lcmtypes [label="kinect-lcmtypes"];
+
+    // Dependency
+    edge [dir=back style=""]
+    ex_lcm -> ex_libbot;
+    ex_libbot -> ex_cv_bridge_lcm;
+    ex_zlib -> ex_cv_bridge_lcm;
+    ex_jpeg_utils -> ex_cv_bridge_lcm;
+    ex_kinect_lcmtypes -> ex_cv_bridge_lcm;
+
+    // assistive-robotics-repo
+    node [shape=box fontsize=13 color="green" fontname="Times new Roman"];
+    rv_tango_tablet_parser [label="rv-tango-tablet-parser"];
+
+    // dependency
+    ex_cv_bridge_lcm -> rv_tango_tablet_parser
+
+    //  ex_libbot -> ex_visualization;
+    //  ex_lcm -> ex_microstrain;
+    //  ex_z -> ex_kinect_lcm
+
+    // devel (Nick's code)
+    //  node [shape=ellipse fontsize=13 color="orange" fontname="Courier"];
+    //  nw_kinect_frame_pcl_utils [label="kinect-frame-pcl-utils"];
+    //  nw_cv_pcl_utils [label="cv-pcl-utils"];
+    //  nw_bl_kinect_frame_pcl [label="kinect-frame-pcl"];
+    //  nw_wearnavi_viewer [label="wearnavi_viewer"];  
+
+    // anantha lab 
+    //  node [shape=ellipse fontsize=13 color="green" fontname="Courier"];
+    //  ac_kinect_frame_pcl [label="ac-kinect-frame-pcl"];
+
+    // Rahul's code (tl-obstacle)
+    //  node [shape=ellipse fontsize=13 color="red" fontname="Courier"];
+    //  rn_obstacle [label="tl-obstacle"]
+    //  rn_audio_guide [label="audio_guide"]
+    //  rn_obstacle_viewer [label="obstacle-viewer"]
+    //  rn_openni_grabber_lcm [label="openni_grabber_lcm"]  
+
+
+    // Dependency for Nick's packages  
+    //  ex_jpeg_utils -> nw_cv_bridge_lcm;
+    //  ex_kinect_lcm -> nw_cv_bridge_lcm;
+    //  ex_kinect_lcm -> nw_kinect_frame_pcl_utils;
+    //  ex_opencv -> nw_cv_bridge_lcm;
+    //  nw_cv_bridge_lcm -> nw_bl_kinect_frame_pcl;
+    //  nw_kinect_frame_pcl_utils -> nw_bl_kinect_frame_pcl;
+    //  nw_cv_pcl_utils -> nw_bl_kinect_frame_pcl;
+    //  ex_opencv -> nw_cv_pcl_utils;
+    //  ex_pcl -> nw_cv_pcl_utils;
+    //  ex_pcl -> nw_kinect_frame_pcl_utils;
+    //  ex_jpeg_utils -> nw_kinect_frame_pcl_utils;
+    //  ex_libbot -> nw_wearnavi_viewer;
+    //  ex_common_utils -> nw_wearnavi_viewer;
+
+    // Dependency for Rahul's packages
+    //  ex_lcm -> rn_audio_guide;  
+    //  ex_lcm -> ex_pointcloud_tools;
+    //  ex_pointcloud_tools -> rn_obstacle;
+    //  nw_cv_bridge_lcm -> rn_obstacle;
+    //  nw_cv_bridge_lcm -> rn_openni_grabber_lcm;
+    //  ex_visualization -> rn_obstacle_viewer;
+
+    // Dependency for Anantha group
+    //  nw_cv_bridge_lcm -> ac_kinect_frame_pcl;
+
+
+}
