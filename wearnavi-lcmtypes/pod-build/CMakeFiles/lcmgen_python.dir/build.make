@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build
 
 # Utility rule file for lcmgen_python.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes
 include CMakeFiles/lcmgen_python.dir/progress.make
 
 CMakeFiles/lcmgen_python:
-	sh -c '/usr/local/bin/lcm-gen --lazy -p /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/tts_t.lcm /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/haptic_array_t.lcm --ppath /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/python'
+	sh -c '/usr/local/bin/lcm-gen --lazy -p /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/tts_t.lcm /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/haptic_array_t.lcm --ppath /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/python'
 
 lcmgen_python: CMakeFiles/lcmgen_python
 lcmgen_python: CMakeFiles/lcmgen_python.dir/build.make
@@ -64,6 +64,6 @@ CMakeFiles/lcmgen_python.dir/clean:
 .PHONY : CMakeFiles/lcmgen_python.dir/clean
 
 CMakeFiles/lcmgen_python.dir/depend:
-	cd /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/CMakeFiles/lcmgen_python.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/CMakeFiles/lcmgen_python.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lcmgen_python.dir/depend
 

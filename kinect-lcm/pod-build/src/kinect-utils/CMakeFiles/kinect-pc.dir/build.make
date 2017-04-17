@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build
 
 # Include any dependencies generated for this target.
 include src/kinect-utils/CMakeFiles/kinect-pc.dir/depend.make
@@ -54,17 +54,17 @@ include src/kinect-utils/CMakeFiles/kinect-pc.dir/flags.make
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pc.cpp.o: src/kinect-utils/CMakeFiles/kinect-pc.dir/flags.make
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pc.cpp.o: ../src/kinect-utils/kinect-pc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pc.cpp.o"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kinect-pc.dir/kinect-pc.cpp.o -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pc.cpp
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kinect-pc.dir/kinect-pc.cpp.o -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pc.cpp
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kinect-pc.dir/kinect-pc.cpp.i"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pc.cpp > CMakeFiles/kinect-pc.dir/kinect-pc.cpp.i
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pc.cpp > CMakeFiles/kinect-pc.dir/kinect-pc.cpp.i
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinect-pc.dir/kinect-pc.cpp.s"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pc.cpp -o CMakeFiles/kinect-pc.dir/kinect-pc.cpp.s
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pc.cpp -o CMakeFiles/kinect-pc.dir/kinect-pc.cpp.s
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pc.cpp.o.requires:
 .PHONY : src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pc.cpp.o.requires
@@ -77,17 +77,17 @@ src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pc.cpp.o.provides.build: src/ki
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.o: src/kinect-utils/CMakeFiles/kinect-pc.dir/flags.make
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.o: ../src/kinect-utils/kinect-pointcloud-pub.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.o"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.o -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.cpp
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.o -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.cpp
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.i"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.cpp > CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.i
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.cpp > CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.i
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.s"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.cpp -o CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.s
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.cpp -o CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.s
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.o.requires:
 .PHONY : src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.o.requires
@@ -100,17 +100,17 @@ src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-pointcloud-pub.cpp.o.provides.b
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-calib.c.o: src/kinect-utils/CMakeFiles/kinect-pc.dir/flags.make
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-calib.c.o: ../src/kinect-utils/kinect-calib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-calib.c.o"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/kinect-pc.dir/kinect-calib.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-calib.c
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/kinect-pc.dir/kinect-calib.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-calib.c
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-calib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kinect-pc.dir/kinect-calib.c.i"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-calib.c > CMakeFiles/kinect-pc.dir/kinect-calib.c.i
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-calib.c > CMakeFiles/kinect-pc.dir/kinect-calib.c.i
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-calib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kinect-pc.dir/kinect-calib.c.s"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-calib.c -o CMakeFiles/kinect-pc.dir/kinect-calib.c.s
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-calib.c -o CMakeFiles/kinect-pc.dir/kinect-calib.c.s
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-calib.c.o.requires:
 .PHONY : src/kinect-utils/CMakeFiles/kinect-pc.dir/kinect-calib.c.o.requires
@@ -137,7 +137,7 @@ bin/kinect-pc: src/kinect-utils/CMakeFiles/kinect-pc.dir/build.make
 bin/kinect-pc: lib/liblcmtypes_kinect.a
 bin/kinect-pc: src/kinect-utils/CMakeFiles/kinect-pc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../bin/kinect-pc"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kinect-pc.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kinect-pc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/kinect-utils/CMakeFiles/kinect-pc.dir/build: bin/kinect-pc
@@ -149,10 +149,10 @@ src/kinect-utils/CMakeFiles/kinect-pc.dir/requires: src/kinect-utils/CMakeFiles/
 .PHONY : src/kinect-utils/CMakeFiles/kinect-pc.dir/requires
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/clean:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils && $(CMAKE_COMMAND) -P CMakeFiles/kinect-pc.dir/cmake_clean.cmake
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils && $(CMAKE_COMMAND) -P CMakeFiles/kinect-pc.dir/cmake_clean.cmake
 .PHONY : src/kinect-utils/CMakeFiles/kinect-pc.dir/clean
 
 src/kinect-utils/CMakeFiles/kinect-pc.dir/depend:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/assistive-robotics-repo/kinect-lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-utils/CMakeFiles/kinect-pc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/PCL_LCM_Demo/kinect-lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-utils/CMakeFiles/kinect-pc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/kinect-utils/CMakeFiles/kinect-pc.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils
+# Install script for directory: /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kinect" TYPE FILE FILES
-    "/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-calib.h"
-    "/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-utils.h"
+    "/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-calib.h"
+    "/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-utils.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -52,8 +52,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/lib/libkinect-utils.so.1"
-    "/home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/lib/libkinect-utils.so"
+    "/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/lib/libkinect-utils.so.1"
+    "/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/lib/libkinect-utils.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkinect-utils.so.1"
@@ -73,7 +73,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/lib/pkgconfig/kinect-utils.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/lib/pkgconfig/kinect-utils.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -83,12 +83,12 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kinect-pc"
          RPATH "/home/robotvision/code/build/lib")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/bin/kinect-pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/bin/kinect-pc")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kinect-pc" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kinect-pc")
     FILE(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kinect-pc"
-         OLD_RPATH "/home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/lib:/home/robotvision/code/build/lib:"
+         OLD_RPATH "/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/lib:/home/robotvision/code/build/lib:"
          NEW_RPATH "/home/robotvision/code/build/lib")
     IF(CMAKE_INSTALL_DO_STRIP)
       EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kinect-pc")

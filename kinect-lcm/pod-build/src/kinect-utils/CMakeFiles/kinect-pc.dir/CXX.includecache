@@ -50,9 +50,9 @@ lcm/lcm_coretypes.h
 lcm/lcm.h
 -
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-calib.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-calib.h
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pc.cpp
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pc.cpp
 stdio.h
 -
 stdlib.h
@@ -64,11 +64,11 @@ lcmtypes/bot_core.h
 bot_core/lcm_util.h
 -
 kinect-pointcloud-pub.h
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.h
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.cpp
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.cpp
 kinect-pointcloud-pub.h
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.h
 boost/math/constants/constants.hpp
 -
 boost/program_options.hpp
@@ -84,7 +84,7 @@ algorithm
 zlib.h
 -
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-pointcloud-pub.h
 glib.h
 -
 lcmtypes/bot_core.h
@@ -106,11 +106,11 @@ boost/thread.hpp
 lcmtypes/kinect_frame_msg_t.h
 -
 kinect-utils.h
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-utils.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-utils.h
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-utils.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-utils.h
 kinect-calib.h
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-utils/kinect-calib.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-utils/kinect-calib.h
 
 /home/robotvision/code/build/include/bot_core/bot_core.h
 math_util.h

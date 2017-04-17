@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lcmtypes_wearnavi.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/lcmtypes_wearnavi.dir/flags.make
 
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.o: CMakeFiles/lcmtypes_wearnavi.dir/flags.make
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.o: ../lcmtypes/c/lcmtypes/obstacle_tts_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.o   -c /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.c
 
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.c > CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.c > CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.i
 
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.c -o CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.c -o CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.s
 
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_tts_t.c.o.provides
 
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.o: CMakeFiles/lcmtypes_wearnavi.dir/flags.make
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.o: ../lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.o   -c /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c
 
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c > CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c > CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.i
 
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c -o CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c -o CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.s
 
 CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_wearnavi.dir/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c.o.requires
@@ -127,6 +127,6 @@ CMakeFiles/lcmtypes_wearnavi.dir/clean:
 .PHONY : CMakeFiles/lcmtypes_wearnavi.dir/clean
 
 CMakeFiles/lcmtypes_wearnavi.dir/depend:
-	cd /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/CMakeFiles/lcmtypes_wearnavi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/CMakeFiles/lcmtypes_wearnavi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lcmtypes_wearnavi.dir/depend
 

@@ -40,25 +40,11 @@ lcm/lcm_coretypes.h
 lcm/lcm.h
 -
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.c
-stdio.h
--
-stdlib.h
--
-string.h
--
-jpeglib.h
--
-jerror.h
--
-jpeg-utils-ijg.h
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.h
-
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.h
 stdint.h
 -
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/main.c
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/main.c
 stdio.h
 -
 stdlib.h
@@ -98,7 +84,7 @@ GL/glu.h
 math.h
 -
 jpeg-utils-ijg.h
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.h
 
 /home/robotvision/code/build/include/zconf.h
 windows.h

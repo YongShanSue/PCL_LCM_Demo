@@ -33,15 +33,7 @@ set (LINK_LIBS
     kinect-utils z jpeg-utils bot2-core
     ) 
 
-add_library(rv-kinect-frame-pcl-utils SHARED src/rv-kinect-frame-pcl-utils.cpp)
-target_link_libraries(rv-kinect-frame-pcl-utils ${LINK_LIBS} ${OpenCV_LIBS})
-set_target_properties(rv-kinect-frame-pcl-utils PROPERTIES SOVERSION 1)
-pods_install_libraries(rv-kinect-frame-pcl-utils)
-pods_install_headers(src/rv-kinect-frame-pcl-utils.h DESTINATION kinect)
-pods_install_pkg_config_file(rv-kinect-frame-pcl-utils
-    LIBS -lkinect-frame-pcl-utils
-    REQUIRES lcm eigen3
-    VERSION 0.0.1)
+
 
 # parse
 add_executable(rv-kinect-frame-pcl-kobe-demo
@@ -49,7 +41,7 @@ add_executable(rv-kinect-frame-pcl-kobe-demo
     src/rv-cv-pcl-utils.cpp
     src/haptic-array-generator.cpp)
 pods_use_pkg_config_packages(rv-kinect-frame-pcl-kobe-demo lcm eigen3 bot2-lcmgl-client)    
-target_link_libraries(rv-kinect-frame-pcl-kobe -demo
+target_link_libraries(rv-kinect-frame-pcl-kobe-demo
     ${LINK_LIBS} ${OpenCV_LIBS} 
     rv-cv-bridge-lcm rv-kinect-frame-pcl-utils)
 pods_install_executables(rv-kinect-frame-pcl-kobe-demo)

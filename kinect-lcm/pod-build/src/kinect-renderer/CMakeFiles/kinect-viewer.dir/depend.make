@@ -55,8 +55,6 @@ src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /home/robotvision/cod
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /home/robotvision/code/build/include/lcmtypes/bot_core_pose_t.h
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /home/robotvision/code/build/include/lcmtypes/bot_core_raw_t.h
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /home/robotvision/code/build/include/lcmtypes/bot_core_rigid_transform_t.h
-src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /home/robotvision/code/build/include/zconf.h
-src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /home/robotvision/code/build/include/zlib.h
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /usr/include/atk-1.0/atk/atk.h
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /usr/include/atk-1.0/atk/atkaction.h
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o: /usr/include/atk-1.0/atk/atkcomponent.h

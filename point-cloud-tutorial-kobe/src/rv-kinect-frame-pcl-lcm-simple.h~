@@ -25,6 +25,17 @@
 #include <pcl-1.7/pcl/point_types.h>
 #include <pcl-1.7/pcl/features/normal_3d.h>
 
+#include <pcl-1.7/pcl/search/organized.h>
+#include <pcl-1.7/pcl/search/kdtree.h>
+#include <pcl-1.7/pcl/features/normal_3d_omp.h>
+#include <pcl-1.7/pcl/filters/conditional_removal.h>
+#include <pcl-1.7/pcl/segmentation/extract_clusters.h>
+#include <pcl-1.7/pcl/features/don.h>
+#include <pcl-1.7/pcl/sample_consensus/sac_model_plane.h>
+#include <pcl-1.7/pcl/sample_consensus/ransac.h>
+#include <pcl-1.7/pcl/segmentation/sac_segmentation.h>
+#include <pcl-1.7/pcl/filters/extract_indices.h>
+
 
 #include <lcm/lcm.h>
 #include <bot_core/bot_core.h>
@@ -35,12 +46,13 @@
 #include <lcmtypes/kinect_frame_msg_t.h>
 #include <lcmtypes/obstacle_haptic_array_t.h>
 #include <lcmtypes/obstacle_tts_t.h>
+#include <lcmtypes/kinect_segmentlist_t.h>
 
 #include <kinect/kinect-utils.h>
 
-#include <cv_bridge_lcm/rv-cv-bridge-lcm.h>
+//#include <cv_bridge_lcm/rv-cv-bridge-lcm.h>
 
-#include "rv-kinect-frame-pcl-utils.h"
+//#include "rv-kinect-frame-pcl-utils.h"
 #include "rv-cv-pcl-utils.h"
 #include "haptic-array-generator.h"
 
@@ -119,7 +131,7 @@ private:
     int kinect_decimate;
     int is_rotated;
 
-    cvBridgeLCM* cv_bridge;
+    //cvBridgeLCM* cv_bridge;
 
     //BotTrans *transform;
     //TrajectoryLibrary* traj_lib;
@@ -130,6 +142,7 @@ private:
 	bot_lcmgl_t* lcmgl_v;
 	bot_lcmgl_t* lcmgl_h;
 	bot_lcmgl_t* lcmgl_pointcloud;
+	kinect_segmentlist_t* segment =new kinect_segmentlist_t();
 };
 
 #endif /* KINECT_FRAME_PCL_H_ */

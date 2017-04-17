@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build
 
 # Utility rule file for lcmgen_python.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod
 include CMakeFiles/lcmgen_python.dir/progress.make
 
 CMakeFiles/lcmgen_python:
-	sh -c '/usr/local/bin/lcm-gen --lazy -p /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_skeleton_msg_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_projected_point2d_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_point2d_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_segmentlist_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_sensor_status_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_pointcloud_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_link_msg_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_cmd_msg_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_image_msg_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_depth_msg_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_point3d_t.lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/kinect_frame_msg_t.lcm --ppath /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/python'
+	sh -c '/usr/local/bin/lcm-gen --lazy -p /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_skeleton_msg_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_projected_point2d_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_point2d_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_segmentlist_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_sensor_status_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_pointcloud_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_link_msg_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_cmd_msg_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_image_msg_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_depth_msg_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_point3d_t.lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/kinect_frame_msg_t.lcm --ppath /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/python'
 
 lcmgen_python: CMakeFiles/lcmgen_python
 lcmgen_python: CMakeFiles/lcmgen_python.dir/build.make
@@ -64,6 +64,6 @@ CMakeFiles/lcmgen_python.dir/clean:
 .PHONY : CMakeFiles/lcmgen_python.dir/clean
 
 CMakeFiles/lcmgen_python.dir/depend:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/assistive-robotics-repo/kinect-lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles/lcmgen_python.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/PCL_LCM_Demo/kinect-lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles/lcmgen_python.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lcmgen_python.dir/depend
 

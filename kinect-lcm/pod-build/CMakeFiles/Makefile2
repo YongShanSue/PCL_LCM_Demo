@@ -50,40 +50,40 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build
 
 #=============================================================================
-# Target rules for target CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir
+# Target rules for target CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir
 
 # All Build rule for target.
-CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/all:
-	$(MAKE) -f CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/build.make CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/depend
-	$(MAKE) -f CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/build.make CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 
-	@echo "Built target fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC"
-.PHONY : CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/all
+CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/all:
+	$(MAKE) -f CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/build.make CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/depend
+	$(MAKE) -f CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/build.make CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 
+	@echo "Built target Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34"
+.PHONY : CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
-.PHONY : CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/rule
+CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
+.PHONY : CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/rule
 
 # Convenience name for target.
-fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC: CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/rule
-.PHONY : fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC
+Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34: CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/rule
+.PHONY : Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34
 
 # clean rule for target.
-CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/clean:
-	$(MAKE) -f CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/build.make CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/clean
-.PHONY : CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/clean
+CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/clean:
+	$(MAKE) -f CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/build.make CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/clean
+.PHONY : CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/clean
+clean: CMakeFiles/Q5M99Jz1ZlXGdd8UM8AwSwNyzXp9Rj34.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -93,7 +93,7 @@ clean: CMakeFiles/fsaPUuseCW9IQxAoRQ4u2S3RIEGNOGjC.dir/clean
 CMakeFiles/lcmgen_c.dir/all:
 	$(MAKE) -f CMakeFiles/lcmgen_c.dir/build.make CMakeFiles/lcmgen_c.dir/depend
 	$(MAKE) -f CMakeFiles/lcmgen_c.dir/build.make CMakeFiles/lcmgen_c.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 
 	@echo "Built target lcmgen_c"
 .PHONY : CMakeFiles/lcmgen_c.dir/all
 
@@ -103,9 +103,9 @@ all: CMakeFiles/lcmgen_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lcmgen_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcmgen_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : CMakeFiles/lcmgen_c.dir/rule
 
 # Convenience name for target.
@@ -128,7 +128,7 @@ clean: CMakeFiles/lcmgen_c.dir/clean
 CMakeFiles/lcmgen_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/lcmgen_cpp.dir/build.make CMakeFiles/lcmgen_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/lcmgen_cpp.dir/build.make CMakeFiles/lcmgen_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 
 	@echo "Built target lcmgen_cpp"
 .PHONY : CMakeFiles/lcmgen_cpp.dir/all
 
@@ -138,9 +138,9 @@ all: CMakeFiles/lcmgen_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lcmgen_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcmgen_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : CMakeFiles/lcmgen_cpp.dir/rule
 
 # Convenience name for target.
@@ -163,7 +163,7 @@ clean: CMakeFiles/lcmgen_cpp.dir/clean
 CMakeFiles/lcmgen_java.dir/all:
 	$(MAKE) -f CMakeFiles/lcmgen_java.dir/build.make CMakeFiles/lcmgen_java.dir/depend
 	$(MAKE) -f CMakeFiles/lcmgen_java.dir/build.make CMakeFiles/lcmgen_java.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 
 	@echo "Built target lcmgen_java"
 .PHONY : CMakeFiles/lcmgen_java.dir/all
 
@@ -173,9 +173,9 @@ all: CMakeFiles/lcmgen_java.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lcmgen_java.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcmgen_java.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : CMakeFiles/lcmgen_java.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ clean: CMakeFiles/lcmgen_java.dir/clean
 CMakeFiles/lcmgen_python.dir/all:
 	$(MAKE) -f CMakeFiles/lcmgen_python.dir/build.make CMakeFiles/lcmgen_python.dir/depend
 	$(MAKE) -f CMakeFiles/lcmgen_python.dir/build.make CMakeFiles/lcmgen_python.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 
 	@echo "Built target lcmgen_python"
 .PHONY : CMakeFiles/lcmgen_python.dir/all
 
@@ -208,9 +208,9 @@ all: CMakeFiles/lcmgen_python.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lcmgen_python.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcmgen_python.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : CMakeFiles/lcmgen_python.dir/rule
 
 # Convenience name for target.
@@ -233,7 +233,7 @@ clean: CMakeFiles/lcmgen_python.dir/clean
 CMakeFiles/lcmtypes_kinect.dir/all: CMakeFiles/lcmgen_c.dir/all
 	$(MAKE) -f CMakeFiles/lcmtypes_kinect.dir/build.make CMakeFiles/lcmtypes_kinect.dir/depend
 	$(MAKE) -f CMakeFiles/lcmtypes_kinect.dir/build.make CMakeFiles/lcmtypes_kinect.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles  10 11 12 13 14 15 16 17 18 19 20 21
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles  10 11 12 13 14 15 16 17 18 19 20 21
 	@echo "Built target lcmtypes_kinect"
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/all
 
@@ -243,9 +243,9 @@ all: CMakeFiles/lcmtypes_kinect.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lcmtypes_kinect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcmtypes_kinect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/rule
 
 # Convenience name for target.
@@ -268,7 +268,7 @@ clean: CMakeFiles/lcmtypes_kinect.dir/clean
 CMakeFiles/lcmtypes_kinect_jar.dir/all: CMakeFiles/lcmgen_java.dir/all
 	$(MAKE) -f CMakeFiles/lcmtypes_kinect_jar.dir/build.make CMakeFiles/lcmtypes_kinect_jar.dir/depend
 	$(MAKE) -f CMakeFiles/lcmtypes_kinect_jar.dir/build.make CMakeFiles/lcmtypes_kinect_jar.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles  22 23
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles  22 23
 	@echo "Built target lcmtypes_kinect_jar"
 .PHONY : CMakeFiles/lcmtypes_kinect_jar.dir/all
 
@@ -278,9 +278,9 @@ all: CMakeFiles/lcmtypes_kinect_jar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lcmtypes_kinect_jar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcmtypes_kinect_jar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : CMakeFiles/lcmtypes_kinect_jar.dir/rule
 
 # Convenience name for target.
@@ -320,7 +320,7 @@ src/kinect-utils/preinstall:
 src/kinect-utils/CMakeFiles/kinect-pc.dir/all: CMakeFiles/lcmtypes_kinect.dir/all
 	$(MAKE) -f src/kinect-utils/CMakeFiles/kinect-pc.dir/build.make src/kinect-utils/CMakeFiles/kinect-pc.dir/depend
 	$(MAKE) -f src/kinect-utils/CMakeFiles/kinect-pc.dir/build.make src/kinect-utils/CMakeFiles/kinect-pc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles  3 4 5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles  3 4 5
 	@echo "Built target kinect-pc"
 .PHONY : src/kinect-utils/CMakeFiles/kinect-pc.dir/all
 
@@ -330,9 +330,9 @@ all: src/kinect-utils/CMakeFiles/kinect-pc.dir/all
 
 # Build rule for subdir invocation for target.
 src/kinect-utils/CMakeFiles/kinect-pc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 src/kinect-utils/CMakeFiles/kinect-pc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : src/kinect-utils/CMakeFiles/kinect-pc.dir/rule
 
 # Convenience name for target.
@@ -355,7 +355,7 @@ clean: src/kinect-utils/CMakeFiles/kinect-pc.dir/clean
 src/kinect-utils/CMakeFiles/kinect-utils.dir/all:
 	$(MAKE) -f src/kinect-utils/CMakeFiles/kinect-utils.dir/build.make src/kinect-utils/CMakeFiles/kinect-utils.dir/depend
 	$(MAKE) -f src/kinect-utils/CMakeFiles/kinect-utils.dir/build.make src/kinect-utils/CMakeFiles/kinect-utils.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles  8
 	@echo "Built target kinect-utils"
 .PHONY : src/kinect-utils/CMakeFiles/kinect-utils.dir/all
 
@@ -365,9 +365,9 @@ all: src/kinect-utils/CMakeFiles/kinect-utils.dir/all
 
 # Build rule for subdir invocation for target.
 src/kinect-utils/CMakeFiles/kinect-utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/kinect-utils/CMakeFiles/kinect-utils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : src/kinect-utils/CMakeFiles/kinect-utils.dir/rule
 
 # Convenience name for target.
@@ -405,7 +405,7 @@ src/kinect-glview/preinstall:
 src/kinect-glview/CMakeFiles/kinect-glview.dir/all: CMakeFiles/lcmtypes_kinect.dir/all
 	$(MAKE) -f src/kinect-glview/CMakeFiles/kinect-glview.dir/build.make src/kinect-glview/CMakeFiles/kinect-glview.dir/depend
 	$(MAKE) -f src/kinect-glview/CMakeFiles/kinect-glview.dir/build.make src/kinect-glview/CMakeFiles/kinect-glview.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles  1 2
 	@echo "Built target kinect-glview"
 .PHONY : src/kinect-glview/CMakeFiles/kinect-glview.dir/all
 
@@ -415,9 +415,9 @@ all: src/kinect-glview/CMakeFiles/kinect-glview.dir/all
 
 # Build rule for subdir invocation for target.
 src/kinect-glview/CMakeFiles/kinect-glview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 src/kinect-glview/CMakeFiles/kinect-glview.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : src/kinect-glview/CMakeFiles/kinect-glview.dir/rule
 
 # Convenience name for target.
@@ -458,7 +458,7 @@ src/kinect-renderer/CMakeFiles/kinect-renderer.dir/all: CMakeFiles/lcmtypes_kine
 src/kinect-renderer/CMakeFiles/kinect-renderer.dir/all: src/kinect-utils/CMakeFiles/kinect-utils.dir/all
 	$(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/depend
 	$(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles  6 7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles  6 7
 	@echo "Built target kinect-renderer"
 .PHONY : src/kinect-renderer/CMakeFiles/kinect-renderer.dir/all
 
@@ -468,9 +468,9 @@ all: src/kinect-renderer/CMakeFiles/kinect-renderer.dir/all
 
 # Build rule for subdir invocation for target.
 src/kinect-renderer/CMakeFiles/kinect-renderer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/CMakeFiles/kinect-renderer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : src/kinect-renderer/CMakeFiles/kinect-renderer.dir/rule
 
 # Convenience name for target.
@@ -490,12 +490,12 @@ clean: src/kinect-renderer/CMakeFiles/kinect-renderer.dir/clean
 # Target rules for target src/kinect-renderer/CMakeFiles/kinect-viewer.dir
 
 # All Build rule for target.
+src/kinect-renderer/CMakeFiles/kinect-viewer.dir/all: src/kinect-renderer/CMakeFiles/kinect-renderer.dir/all
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/all: CMakeFiles/lcmtypes_kinect.dir/all
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/all: src/kinect-utils/CMakeFiles/kinect-utils.dir/all
-src/kinect-renderer/CMakeFiles/kinect-viewer.dir/all: src/kinect-renderer/CMakeFiles/kinect-renderer.dir/all
 	$(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/depend
 	$(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles  9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles  9
 	@echo "Built target kinect-viewer"
 .PHONY : src/kinect-renderer/CMakeFiles/kinect-viewer.dir/all
 
@@ -505,9 +505,9 @@ all: src/kinect-renderer/CMakeFiles/kinect-viewer.dir/all
 
 # Build rule for subdir invocation for target.
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : src/kinect-renderer/CMakeFiles/kinect-viewer.dir/rule
 
 # Convenience name for target.

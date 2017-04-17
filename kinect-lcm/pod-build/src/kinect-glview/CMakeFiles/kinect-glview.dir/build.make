@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build
 
 # Include any dependencies generated for this target.
 include src/kinect-glview/CMakeFiles/kinect-glview.dir/depend.make
@@ -54,17 +54,17 @@ include src/kinect-glview/CMakeFiles/kinect-glview.dir/flags.make
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/main.c.o: src/kinect-glview/CMakeFiles/kinect-glview.dir/flags.make
 src/kinect-glview/CMakeFiles/kinect-glview.dir/main.c.o: ../src/kinect-glview/main.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/kinect-glview/CMakeFiles/kinect-glview.dir/main.c.o"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/kinect-glview.dir/main.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/main.c
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/kinect-glview.dir/main.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/main.c
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kinect-glview.dir/main.c.i"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/main.c > CMakeFiles/kinect-glview.dir/main.c.i
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/main.c > CMakeFiles/kinect-glview.dir/main.c.i
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kinect-glview.dir/main.c.s"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/main.c -o CMakeFiles/kinect-glview.dir/main.c.s
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/main.c -o CMakeFiles/kinect-glview.dir/main.c.s
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/main.c.o.requires:
 .PHONY : src/kinect-glview/CMakeFiles/kinect-glview.dir/main.c.o.requires
@@ -77,17 +77,17 @@ src/kinect-glview/CMakeFiles/kinect-glview.dir/main.c.o.provides.build: src/kine
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.o: src/kinect-glview/CMakeFiles/kinect-glview.dir/flags.make
 src/kinect-glview/CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.o: ../src/kinect-glview/jpeg-utils-ijg.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/kinect-glview/CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.o"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.c
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.c
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.i"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.c > CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.i
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.c > CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.i
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.s"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.c -o CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.s
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview/jpeg-utils-ijg.c -o CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.s
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.o.requires:
 .PHONY : src/kinect-glview/CMakeFiles/kinect-glview.dir/jpeg-utils-ijg.c.o.requires
@@ -118,7 +118,7 @@ bin/kinect-glview: /usr/lib/x86_64-linux-gnu/libX11.so
 bin/kinect-glview: /usr/lib/x86_64-linux-gnu/libXext.so
 bin/kinect-glview: src/kinect-glview/CMakeFiles/kinect-glview.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable ../../bin/kinect-glview"
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kinect-glview.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kinect-glview.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/kinect-glview/CMakeFiles/kinect-glview.dir/build: bin/kinect-glview
@@ -129,10 +129,10 @@ src/kinect-glview/CMakeFiles/kinect-glview.dir/requires: src/kinect-glview/CMake
 .PHONY : src/kinect-glview/CMakeFiles/kinect-glview.dir/requires
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/clean:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview && $(CMAKE_COMMAND) -P CMakeFiles/kinect-glview.dir/cmake_clean.cmake
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview && $(CMAKE_COMMAND) -P CMakeFiles/kinect-glview.dir/cmake_clean.cmake
 .PHONY : src/kinect-glview/CMakeFiles/kinect-glview.dir/clean
 
 src/kinect-glview/CMakeFiles/kinect-glview.dir/depend:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/assistive-robotics-repo/kinect-lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-glview /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-glview/CMakeFiles/kinect-glview.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/PCL_LCM_Demo/kinect-lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-glview /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-glview/CMakeFiles/kinect-glview.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/kinect-glview/CMakeFiles/kinect-glview.dir/depend
 

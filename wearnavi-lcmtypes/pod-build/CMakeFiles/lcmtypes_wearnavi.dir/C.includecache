@@ -26,17 +26,17 @@ lcm/lcm_coretypes.h
 lcm/lcm.h
 -
 
-/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c
+/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.c
 string.h
 -
 lcmtypes/obstacle_haptic_array_t.h
-/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/lcmtypes/obstacle_haptic_array_t.h
+/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/lcmtypes/obstacle_haptic_array_t.h
 
-/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.c
+/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.c
 string.h
 -
 lcmtypes/obstacle_tts_t.h
-/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/lcmtypes/obstacle_tts_t.h
+/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/lcmtypes/obstacle_tts_t.h
 
 /usr/local/include/lcm/eventlog.h
 stdio.h

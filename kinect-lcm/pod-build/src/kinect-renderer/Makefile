@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/src/kinect-renderer/CMakeFiles/progress.marks
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles 0
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/src/kinect-renderer/CMakeFiles/progress.marks
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/clean
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/preinstall
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/preinstall
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/kinect-renderer/CMakeFiles/kinect-renderer.dir/rule:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/CMakeFiles/kinect-renderer.dir/rule
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/CMakeFiles/kinect-renderer.dir/rule
 .PHONY : src/kinect-renderer/CMakeFiles/kinect-renderer.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ kinect-renderer: src/kinect-renderer/CMakeFiles/kinect-renderer.dir/rule
 
 # fast build rule for target.
 kinect-renderer/fast:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build
 .PHONY : kinect-renderer/fast
 
 # Convenience name for target.
 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/rule:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/rule
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f CMakeFiles/Makefile2 src/kinect-renderer/CMakeFiles/kinect-viewer.dir/rule
 .PHONY : src/kinect-renderer/CMakeFiles/kinect-viewer.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ kinect-viewer: src/kinect-renderer/CMakeFiles/kinect-viewer.dir/rule
 
 # fast build rule for target.
 kinect-viewer/fast:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build
 .PHONY : kinect-viewer/fast
 
 jpeg-utils-ijg.o: jpeg-utils-ijg.c.o
@@ -175,7 +175,7 @@ jpeg-utils-ijg.o: jpeg-utils-ijg.c.o
 
 # target to build an object file
 jpeg-utils-ijg.c.o:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/jpeg-utils-ijg.c.o
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/jpeg-utils-ijg.c.o
 .PHONY : jpeg-utils-ijg.c.o
 
 jpeg-utils-ijg.i: jpeg-utils-ijg.c.i
@@ -183,7 +183,7 @@ jpeg-utils-ijg.i: jpeg-utils-ijg.c.i
 
 # target to preprocess a source file
 jpeg-utils-ijg.c.i:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/jpeg-utils-ijg.c.i
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/jpeg-utils-ijg.c.i
 .PHONY : jpeg-utils-ijg.c.i
 
 jpeg-utils-ijg.s: jpeg-utils-ijg.c.s
@@ -191,7 +191,7 @@ jpeg-utils-ijg.s: jpeg-utils-ijg.c.s
 
 # target to generate assembly for a file
 jpeg-utils-ijg.c.s:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/jpeg-utils-ijg.c.s
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/jpeg-utils-ijg.c.s
 .PHONY : jpeg-utils-ijg.c.s
 
 kinect_renderer.o: kinect_renderer.c.o
@@ -199,7 +199,7 @@ kinect_renderer.o: kinect_renderer.c.o
 
 # target to build an object file
 kinect_renderer.c.o:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/kinect_renderer.c.o
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/kinect_renderer.c.o
 .PHONY : kinect_renderer.c.o
 
 kinect_renderer.i: kinect_renderer.c.i
@@ -207,7 +207,7 @@ kinect_renderer.i: kinect_renderer.c.i
 
 # target to preprocess a source file
 kinect_renderer.c.i:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/kinect_renderer.c.i
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/kinect_renderer.c.i
 .PHONY : kinect_renderer.c.i
 
 kinect_renderer.s: kinect_renderer.c.s
@@ -215,7 +215,7 @@ kinect_renderer.s: kinect_renderer.c.s
 
 # target to generate assembly for a file
 kinect_renderer.c.s:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/kinect_renderer.c.s
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-renderer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-renderer.dir/kinect_renderer.c.s
 .PHONY : kinect_renderer.c.s
 
 main.o: main.c.o
@@ -223,7 +223,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -231,7 +231,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.i
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -239,7 +239,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.s
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(MAKE) -f src/kinect-renderer/CMakeFiles/kinect-viewer.dir/build.make src/kinect-renderer/CMakeFiles/kinect-viewer.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -276,6 +276,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build
 
 # Utility rule file for lcmtypes_kinect_jar.
 
@@ -62,9 +62,9 @@ lcmtypes_kinect.jar: ../lcmtypes/java/kinect/projected_point2d_t.class
 lcmtypes_kinect.jar: ../lcmtypes/java/kinect/point2d_t.class
 lcmtypes_kinect.jar: ../lcmtypes/java/kinect/cmd_msg_t.class
 lcmtypes_kinect.jar: ../lcmtypes/java/kinect/link_msg_t.class
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating lcmtypes_kinect.jar"
-	/usr/bin/jar cf /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/lcmtypes_kinect.jar -C /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java .
+	/usr/bin/jar cf /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/lcmtypes_kinect.jar -C /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java .
 
 ../lcmtypes/java/kinect/segmentlist_t.class: ../lcmtypes/java/kinect/segmentlist_t.java
 ../lcmtypes/java/kinect/segmentlist_t.class: ../lcmtypes/java/kinect/sensor_status_t.java
@@ -78,9 +78,9 @@ lcmtypes_kinect.jar: ../lcmtypes/java/kinect/link_msg_t.class
 ../lcmtypes/java/kinect/segmentlist_t.class: ../lcmtypes/java/kinect/point2d_t.java
 ../lcmtypes/java/kinect/segmentlist_t.class: ../lcmtypes/java/kinect/cmd_msg_t.java
 ../lcmtypes/java/kinect/segmentlist_t.class: ../lcmtypes/java/kinect/link_msg_t.java
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../lcmtypes/java/kinect/segmentlist_t.class, ../lcmtypes/java/kinect/sensor_status_t.class, ../lcmtypes/java/kinect/frame_msg_t.class, ../lcmtypes/java/kinect/skeleton_msg_t.class, ../lcmtypes/java/kinect/depth_msg_t.class, ../lcmtypes/java/kinect/image_msg_t.class, ../lcmtypes/java/kinect/point3d_t.class, ../lcmtypes/java/kinect/pointcloud_t.class, ../lcmtypes/java/kinect/projected_point2d_t.class, ../lcmtypes/java/kinect/point2d_t.class, ../lcmtypes/java/kinect/cmd_msg_t.class, ../lcmtypes/java/kinect/link_msg_t.class"
-	/usr/bin/javac -source 6 -cp /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java:/usr/local/share/java/lcm.jar:/home/robotvision/code/build/share/java/lcmtypes_april_tags.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-procman.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-core.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-frames.jar:/home/robotvision/code/build/share/java/lcmtypes_point-cloud-tutorial-kobe.jar:/home/robotvision/code/build/share/java/lcmtypes_tt.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-param.jar:/home/robotvision/code/build/share/java/lcmtypes_lcm-examples.jar:/home/robotvision/code/build/share/java/lcmtypes_kobe-create-message.jar /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/segmentlist_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/sensor_status_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/frame_msg_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/skeleton_msg_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/depth_msg_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/image_msg_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/point3d_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/pointcloud_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/projected_point2d_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/point2d_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/cmd_msg_t.java /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/java/kinect/link_msg_t.java
+	/usr/bin/javac -source 6 -cp /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java:/usr/local/share/java/lcm.jar:/home/robotvision/code/build/share/java/lcmtypes_wearnavi.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-procman.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-core.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-frames.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-param.jar:/home/robotvision/code/build/share/java/lcmtypes_kinect.jar /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/segmentlist_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/sensor_status_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/frame_msg_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/skeleton_msg_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/depth_msg_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/image_msg_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/point3d_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/pointcloud_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/projected_point2d_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/point2d_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/cmd_msg_t.java /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/java/kinect/link_msg_t.java
 
 ../lcmtypes/java/kinect/sensor_status_t.class: ../lcmtypes/java/kinect/segmentlist_t.class
 
@@ -130,6 +130,6 @@ CMakeFiles/lcmtypes_kinect_jar.dir/clean:
 .PHONY : CMakeFiles/lcmtypes_kinect_jar.dir/clean
 
 CMakeFiles/lcmtypes_kinect_jar.dir/depend:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/assistive-robotics-repo/kinect-lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles/lcmtypes_kinect_jar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/PCL_LCM_Demo/kinect-lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles/lcmtypes_kinect_jar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lcmtypes_kinect_jar.dir/depend
 

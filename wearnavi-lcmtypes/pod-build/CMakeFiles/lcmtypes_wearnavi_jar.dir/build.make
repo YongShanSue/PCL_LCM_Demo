@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build
 
 # Utility rule file for lcmtypes_wearnavi_jar.
 
@@ -52,15 +52,15 @@ CMakeFiles/lcmtypes_wearnavi_jar: lcmtypes_wearnavi.jar
 
 lcmtypes_wearnavi.jar: ../lcmtypes/java/obstacle/tts_t.class
 lcmtypes_wearnavi.jar: ../lcmtypes/java/obstacle/haptic_array_t.class
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating lcmtypes_wearnavi.jar"
-	/usr/bin/jar cf /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/lcmtypes_wearnavi.jar -C /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/java .
+	/usr/bin/jar cf /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/lcmtypes_wearnavi.jar -C /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/java .
 
 ../lcmtypes/java/obstacle/tts_t.class: ../lcmtypes/java/obstacle/tts_t.java
 ../lcmtypes/java/obstacle/tts_t.class: ../lcmtypes/java/obstacle/haptic_array_t.java
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../lcmtypes/java/obstacle/tts_t.class, ../lcmtypes/java/obstacle/haptic_array_t.class"
-	/usr/bin/javac -source 6 -cp /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/java:/usr/local/share/java/lcm.jar:/home/robotvision/code/build/share/java/lcmtypes_april_tags.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-procman.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-core.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-frames.jar:/home/robotvision/code/build/share/java/lcmtypes_point-cloud-tutorial-kobe.jar:/home/robotvision/code/build/share/java/lcmtypes_tt.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-param.jar:/home/robotvision/code/build/share/java/lcmtypes_kinect.jar:/home/robotvision/code/build/share/java/lcmtypes_lcm-examples.jar:/home/robotvision/code/build/share/java/lcmtypes_kobe-create-message.jar /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/java/obstacle/tts_t.java /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/java/obstacle/haptic_array_t.java
+	/usr/bin/javac -source 6 -cp /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/java:/usr/local/share/java/lcm.jar:/home/robotvision/code/build/share/java/lcmtypes_wearnavi.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-procman.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-core.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-frames.jar:/home/robotvision/code/build/share/java/lcmtypes_bot2-param.jar /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/java/obstacle/tts_t.java /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/java/obstacle/haptic_array_t.java
 
 ../lcmtypes/java/obstacle/haptic_array_t.class: ../lcmtypes/java/obstacle/tts_t.class
 
@@ -80,6 +80,6 @@ CMakeFiles/lcmtypes_wearnavi_jar.dir/clean:
 .PHONY : CMakeFiles/lcmtypes_wearnavi_jar.dir/clean
 
 CMakeFiles/lcmtypes_wearnavi_jar.dir/depend:
-	cd /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/CMakeFiles/lcmtypes_wearnavi_jar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/CMakeFiles/lcmtypes_wearnavi_jar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lcmtypes_wearnavi_jar.dir/depend
 

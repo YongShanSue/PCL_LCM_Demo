@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm
+CMAKE_SOURCE_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build
+CMAKE_BINARY_DIR = /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lcmtypes_kinect.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/lcmtypes_kinect.dir/flags.make
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.o: ../lcmtypes/c/lcmtypes/kinect_pointcloud_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_pointcloud_t.c.o.provi
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.o: ../lcmtypes/c/lcmtypes/kinect_depth_msg_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.o.requires
@@ -100,17 +100,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_depth_msg_t.c.o.provid
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.o: ../lcmtypes/c/lcmtypes/kinect_sensor_status_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.o.requires
@@ -123,17 +123,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_sensor_status_t.c.o.pr
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.o: ../lcmtypes/c/lcmtypes/kinect_frame_msg_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.o.requires
@@ -146,17 +146,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_frame_msg_t.c.o.provid
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.o: ../lcmtypes/c/lcmtypes/kinect_link_msg_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_link_msg_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_link_msg_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_link_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_link_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_link_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_link_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.o.requires
@@ -169,17 +169,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_link_msg_t.c.o.provide
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.o: ../lcmtypes/c/lcmtypes/kinect_point3d_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point3d_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point3d_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point3d_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point3d_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point3d_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point3d_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.o.requires
@@ -192,17 +192,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point3d_t.c.o.provides
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.o: ../lcmtypes/c/lcmtypes/kinect_point2d_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point2d_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point2d_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point2d_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point2d_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point2d_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_point2d_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.o.requires
@@ -215,17 +215,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_point2d_t.c.o.provides
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.o: ../lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.o.requires
@@ -238,17 +238,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_skeleton_msg_t.c.o.pro
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.o: ../lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.o.requires
@@ -261,17 +261,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_projected_point2d_t.c.
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.o: ../lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.o.requires
@@ -284,17 +284,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_cmd_msg_t.c.o.provides
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.o: ../lcmtypes/c/lcmtypes/kinect_image_msg_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_image_msg_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_image_msg_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_image_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_image_msg_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_image_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_image_msg_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.o.requires
@@ -307,17 +307,17 @@ CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_image_msg_t.c.o.provid
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.o: CMakeFiles/lcmtypes_kinect.dir/flags.make
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.o: ../lcmtypes/c/lcmtypes/kinect_segmentlist_t.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.o   -c /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.o   -c /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c > CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.i
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/assistive-robotics-repo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c -o CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.s
 
 CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.o.requires:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/lcmtypes/c/lcmtypes/kinect_segmentlist_t.c.o.requires
@@ -387,6 +387,6 @@ CMakeFiles/lcmtypes_kinect.dir/clean:
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/clean
 
 CMakeFiles/lcmtypes_kinect.dir/depend:
-	cd /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/assistive-robotics-repo/kinect-lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build /home/robotvision/code/assistive-robotics-repo/kinect-lcm/pod-build/CMakeFiles/lcmtypes_kinect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotvision/code/PCL_LCM_Demo/kinect-lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build /home/robotvision/code/PCL_LCM_Demo/kinect-lcm/pod-build/CMakeFiles/lcmtypes_kinect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lcmtypes_kinect.dir/depend
 

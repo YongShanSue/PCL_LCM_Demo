@@ -1,4 +1,4 @@
-# Install script for directory: /home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes
+# Install script for directory: /home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,35 +33,35 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/lib/liblcmtypes_wearnavi.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/lib/liblcmtypes_wearnavi.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lcmtypes" TYPE FILE FILES
-    "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.h"
-    "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.h"
-    "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/wearnavi.h"
+    "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_tts_t.h"
+    "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/obstacle_haptic_array_t.h"
+    "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/c/lcmtypes/wearnavi.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/lib/pkgconfig/lcmtypes_wearnavi.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/lib/pkgconfig/lcmtypes_wearnavi.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lcmtypes/obstacle" TYPE FILE FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/cpp/lcmtypes/obstacle/tts_t.hpp")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lcmtypes/obstacle" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/cpp/lcmtypes/obstacle/tts_t.hpp")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lcmtypes/obstacle" TYPE FILE FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/cpp/lcmtypes/obstacle/haptic_array_t.hpp")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lcmtypes/obstacle" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/cpp/lcmtypes/obstacle/haptic_array_t.hpp")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lcmtypes" TYPE FILE FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/cpp/lcmtypes/wearnavi.hpp")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lcmtypes" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/cpp/lcmtypes/wearnavi.hpp")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/java" TYPE FILE FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/lcmtypes_wearnavi.jar")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/java" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/lcmtypes_wearnavi.jar")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -73,7 +73,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/robotvision/code/build/lib/python2.7/dist-packages/obstacle" TYPE FILE FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/python/obstacle/haptic_array_t.py")
+FILE(INSTALL DESTINATION "/home/robotvision/code/build/lib/python2.7/dist-packages/obstacle" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/python/obstacle/haptic_array_t.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -85,7 +85,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/robotvision/code/build/lib/python2.7/dist-packages/obstacle" TYPE FILE FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/python/obstacle/tts_t.py")
+FILE(INSTALL DESTINATION "/home/robotvision/code/build/lib/python2.7/dist-packages/obstacle" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/python/obstacle/tts_t.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -97,13 +97,13 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/robotvision/code/build/lib/python2.7/dist-packages/obstacle" TYPE FILE FILES "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/python/obstacle/__init__.py")
+FILE(INSTALL DESTINATION "/home/robotvision/code/build/lib/python2.7/dist-packages/obstacle" TYPE FILE FILES "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/python/obstacle/__init__.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lcmtypes" TYPE FILE FILES
-    "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/tts_t.lcm"
-    "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/lcmtypes/haptic_array_t.lcm"
+    "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/tts_t.lcm"
+    "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/lcmtypes/haptic_array_t.lcm"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -113,7 +113,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/robotvision/code/patrollingrobot_kobe/wearnavi-lcmtypes/pod-build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/robotvision/code/PCL_LCM_Demo/wearnavi-lcmtypes/pod-build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

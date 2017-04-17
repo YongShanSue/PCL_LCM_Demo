@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-renderer/kinect_renderer.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-renderer/kinect_renderer.h
 lcm/lcm.h
 -
 bot_vis/bot_vis.h
@@ -16,7 +16,7 @@ bot_frames/bot_frames.h
 bot_param/param_client.h
 -
 
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-renderer/main.c
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-renderer/main.c
 string.h
 -
 gtk/gtk.h
@@ -30,7 +30,7 @@ bot_param/param_client.h
 bot_param/param_util.h
 -
 kinect_renderer.h
-/home/robotvision/code/assistive-robotics-repo/kinect-lcm/src/kinect-renderer/kinect_renderer.h
+/home/robotvision/code/PCL_LCM_Demo/kinect-lcm/src/kinect-renderer/kinect_renderer.h
 
 /home/robotvision/code/build/include/bot_core/bot_core.h
 math_util.h
@@ -453,26 +453,6 @@ lcm/lcm_coretypes.h
 -
 lcm/lcm.h
 -
-
-/home/robotvision/code/build/include/zconf.h
-windows.h
--
-limits.h
--
-sys/types.h
--
-stdarg.h
--
-stddef.h
--
-unistd.h
--
-unixio.h
--
-
-/home/robotvision/code/build/include/zlib.h
-zconf.h
-/home/robotvision/code/build/include/zconf.h
 
 /usr/include/atk-1.0/atk/atk.h
 atk/atkobject.h
