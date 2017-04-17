@@ -1,2 +1,0 @@
-/home/robotvision/code/assistive-robotics-repo/apriltags-lib/pod-build/CMakeFiles/apriltags.dir
-/home/robotvision/code/assistive-robotics-repo/apriltags-lib/pod-build/CMakeFiles/tmp.dir
